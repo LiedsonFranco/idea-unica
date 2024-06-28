@@ -13,7 +13,7 @@ export default function Tempo(props){
     )
 }
 
-export default function getStaticProps(){
+export function getStaticProps(){
     const staticDate = new Date()
     const staticDateString = staticDate.toGMTString()
     return {
