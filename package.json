@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.12",
     "next": "^14.2.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -7,7 +8,6 @@
   "name": "idea-unica",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "dev": "next dev"
   },
